@@ -28,6 +28,35 @@ var animeSitesList = [
                 }
             ]
     },
+    {
+        id: "shikimori",
+        title: "Shikimori.one",
+        hasChildren: true,
+        children:
+            [
+                {
+                    id: "anime",
+                    title: "Anime",
+                    website: "https://shikimori.one/animes?search="
+                },
+                {
+                    id: "manga",
+                    title: "Manga",
+                    website: "https://shikimori.one/mangas?search="
+                },
+                {
+                    id: "ranobe",
+                    title: "Ranobe",
+                    website: "https://shikimori.one/ranobe?search="
+                }
+            ]
+    },
+    {
+        id: "mal",
+        title: "MyAnimeList",
+        hasChildren: false,
+        website: "https://myanimelist.net/search/all?q="
+    },
 ]
 
 var contextMenuItem = {
