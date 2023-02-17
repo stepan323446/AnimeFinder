@@ -1,9 +1,25 @@
 var animeSitesList = [
     {
-        id: "animego",
-        title: "AnimeGo",
-        hasChildren: false,
-        website: "https://animego.org/search/all?q="
+        id: "anilist",
+        title: "Anilist",
+        hasChildren: true,
+        children:[
+            {
+                id: "anime",
+                title: "Anime",
+                website: "https://anilist.co/search/anime?search="
+            },
+            {
+                id: "manga",
+                title: "Manga",
+                website: "https://anilist.co/search/manga?search="
+            },
+            {
+                id: "character",
+                title: "Character",
+                website: "https://anilist.co/search/characters?search="
+            },
+        ]
     },
     {
         id: "lib",
@@ -50,6 +66,12 @@ var animeSitesList = [
                     website: "https://shikimori.one/ranobe?search="
                 }
             ]
+    },
+    {
+        id: "animego",
+        title: "AnimeGo",
+        hasChildren: false,
+        website: "https://animego.org/search/all?q="
     },
     {
         id: "mal",
