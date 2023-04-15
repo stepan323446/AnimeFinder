@@ -1,18 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Anime Finder",
-    "version": "1.0",
-    "description": "custom anime finder for some websitesa",
+    "version": "2.0",
+    "description": "Custom anime finder for some websites",
     "icons": {
         "128": "images/128.png"
     },
-    "content_scripts": [
-        {
-            "matches": [ "https://pony.town/*" ],
-            "js": [ "app.js" ],
-            "run_at":"document_end"
-        }
-    ],
     "background":{
         "service_worker": "eventPage.js"
     },
